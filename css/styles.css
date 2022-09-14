@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+       display: flex;
+       flex-direction: column;
+       padding: 50px;
+       height: 100%
+       
+   }
+   h1, h2, h3, h4, h5, h6, p {
+    margin-bottom:16px
+   }
+   
+
+body {
+    background-color: antiquewhite;
+}
+#app {
+    padding: 40px;
+    width: 100%;
+    
+    background-color: rgb(255, 161, 47);
+    padding-bottom: 40px;
+}
+
+
+.line {
+    margin: 0px;
+    width: 80%;
+    height: 3px;
+    background-color: #000;
+}
